@@ -1,6 +1,7 @@
 ---
 title: About Sam Lim
 layout: page
+permalink: /about/
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
