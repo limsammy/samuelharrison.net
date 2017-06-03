@@ -1,5 +1,5 @@
 ---
-title: "Project Enigma - a WWII inspired encryption suite"
+title: "Project Enigma - a WWII Inspired Text Cryptography Suite"
 layout: post
 date: 2017-06-03 15:02
 tag:
