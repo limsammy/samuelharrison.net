@@ -8,11 +8,11 @@ description: Some background info about myself, contact info, and several helpfu
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
@@ -57,7 +57,7 @@ authors:
         name: Sam Lim
         bio: A man of mystery.
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/profile.png
         twitter: samlim44
     # jamesfoster:
     #     name: James Foster

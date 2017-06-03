@@ -1,0 +1,39 @@
+---
+title: "Summer Update!"
+layout: post
+date: 2017-05-29 07:25
+headerImage: false
+tag:
+- mod 2
+- sick leave
+- future
+- life update
+- plans
+- tech
+category: blog
+author: Sam Lim
+description: Some thoughts about my sick leave, and future plans.
+---
+
+## Illness
+
+Hey all!
+
+Just wanted to give everyone a little update from Portland, OR! As far as school ([Turing](https://www.turing.io/)) goes, I had to recently take the May inning off from my school, Turing, due to health issues. For as long as I can remember I have had some pretty bad sleeping issues that only recently have became way too urgent to continue putting off. So after some discussion with my teachers, we decided that  the best course of action would be taking the next 4-5 weeks off from school, returning home to Oregon, and receiving the treatment and surgery I need to be able to actually SLEEP at night. We both came to the conclusion that my health needs to take precedence over class, no matter how much it pains me to admit.
+
+## Continuing my learning
+
+So in the spirit of the [Turing Mission Statement](https://www.turing.io/turing-difference) as well as what I'd describe as the "programmers mantra", I am looking to continue my learning and acquirement of knowledge even during my time off. In regards to learning new tech, I've begun to transition my knowledge of the MVC model we were taught whilst using [Sinatra](http://www.sinatrarb.com/) to the more robust framework known as [Ruby on Rails](http://rubyonrails.org/). Along with that I have begun painstakingly expanding my experience with the godforsaken areas of frontend design (various HTML grid systems and CSS).
+
+Along with that, some other new tech I have been exposing myself to is some (very minimal) Javascript (and with that, **functional programming**), [Node.js](https://nodejs.org/en/), [Matlab](https://www.mathworks.com/) (following along with assignments my friends have been given in their 'intro to engineering college courses'), [Flask](http://flask.pocoo.org/), a bit of [Django](https://www.djangoproject.com/) (expanding my knowledge on my dear, old love, the wonderous language known as [Python](https://www.python.org/)), [Clojure](https://clojure.org/) (at the recommendation of my full-stack, Australian developer friend who knows more languages than I can think of, and the one and only who introduced me to not just Python, but the art of programming in general), and even dipping my toes in the mystical bubbling water known as [machine learning](https://en.wikipedia.org/wiki/Machine_learning).
+
+## What next?
+
+In the spirit of never halting my learning process, I've begun contacting some family friends and people I know in the local community about possibly working for little-to-no pay in building a database based web app for their respective company/needs. I hope to soon find some freelance work or even an internship at some startup in Portland.
+
+As of now I have one solid contract locked into place: A close friend of mine from High School has started to become very popular as a fashion designer. He has his own brand, [Like Minded Clothing](http://www.likemindedcloth.com/), and puts out various articles of clothing on a regular basis, that of which sells out extremely quickly. As of now he is using a publicly hosted payment platform that subtracts a percentage of sales as commission. However with my help we hope to eventually develop and deploy a standalone eCommerce web app fully dedicated to his brand and his brand only without the use of any sort of public platform. I don't have any experience in dealing with payment platforms and the such, but I am looking forward to the challenge, as well as learning how to design our database to accomodate a shopping platform with respective customer's info tables. We are also discussing him hiring me as his dedicated IT/Web Dev/DB Management person.
+
+I will update soon regarding these ventures!
+
+Signing off,
+Sam

@@ -1,0 +1,25 @@
+---
+title: "My First Blog Post"
+layout: post
+date: 2017-04-10 07:15
+headerImage: false
+tag:
+- mod 1
+- thoughts
+- future
+- summary
+category: blog
+author: Sam Lim
+description: Thoughts about this site, and Turing in general
+---
+
+## Crossing the finish line of Mod 1!
+
+On Friday, April 21st I graduated the first module of four at the software development school I have been attending over the last month: [The Turing School of Software Development and Design](https://www.turing.io/). My first thoughts leaving school that day were of a very interesting combination of several seemingly contrasting feelings. This collection consisted of a _"Fuck yeah!"_ attitude (well deserved, at that), a sullen, almost-hopeless semblence of gratitude that _I had actually made it_, and resonations with those who warned me how difficult and rigorous this courework would actually be. However in my almost-defeated and fatigued state, I felt what some refer to as "the light at the end of the tunnel," a rising sense of hope in the pit of my gut telling me _you made it through this, you can make it through the rest!_
+
+Plus, at the end of my week-long break, I even found myself longing to be back in the classroom, chatting with peers, hacking away at mind-boggling projects, and living and breathing [Ruby](https://www.ruby-lang.org/), our development language.
+
+I'm excited as ever to start Module 2, and cannot WAIT to learn Rails.
+
+Signing off,
+Sam
