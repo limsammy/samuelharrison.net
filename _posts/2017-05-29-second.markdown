@@ -11,7 +11,7 @@ tag:
 - plans
 - tech
 category: blog
-author: Sam Lim
+author: samlim
 description: Some thoughts about my sick leave, and future plans.
 ---
 

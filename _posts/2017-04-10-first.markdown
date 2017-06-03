@@ -9,7 +9,7 @@ tag:
 - future
 - summary
 category: blog
-author: Sam Lim
+author: samlim
 description: Thoughts about this site, and Turing in general
 ---
 
