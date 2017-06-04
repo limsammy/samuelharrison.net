@@ -57,3 +57,5 @@ def generate_key(length = @length)
   key.to_s
 end
 {% endhighlight %}
+
+# WIP - TO BE CONTINUED
