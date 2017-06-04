@@ -17,16 +17,18 @@ With that engineering project, I won first place in Computer Science. Overjoyed 
 - [LinkedIn](https://www.linkedin.com/in/samuelharrisonlim/)
 - [Github](https://github.com/limsammy)
 - [Twitter](https://twitter.com/SamLim44)
-- Email: [limsammy1@gmail.com](mailto:limsammy1@gmail.com?Subject=From%20your%20blog)
+- [limsammy1@gmail.com](mailto:limsammy1@gmail.com?Subject=From%20your%20blog)
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
 	<li>HTML - HTML5 - Erb</li>
 	<li>CSS (Bootstrap, Sass)</li>
+	<li>Sass</li>
 	<li>Ruby</li>
 	<li>Ruby on Rails</li>
 	<li>Sinatra</li>
+	<li>Jekyll</li>
 	<li>Enterprise Database Solutions (SQLite3, MySQL, PostgresSQL)</li>
 	<li>Python</li>
 	<li>Web.py</li>
@@ -35,7 +37,7 @@ With that engineering project, I won first place in Computer Science. Overjoyed 
 	<li>Java</li>
 	<li>C++</li>
 	<li>C#</li>
-	<li>Various Linux Flavors (I personally prefer Arch or OpenBSD)</li>
+	<li>Various Linux Flavors (I personally prefer Arch, but Debian is my go-to)</li>
 	<li>Bash</li>
 	<li>Server Management</li>
 	<li>Web Pentesting</li>
@@ -47,4 +49,5 @@ With that engineering project, I won first place in Computer Science. Overjoyed 
 	<li><a href="https://iamchrissmith.io/headcount/">Headcount</a> (<a href="https://github.com/iamchrissmith/headcount">Source</a>)</li>
 	<li><a href="https://github.com/limsammy/bike-share">Bike Share</a></li>
 	<li><a href="https://github.com/limsammy/ISEF">Twitter Metadata Scraper and Analyzer</a></li>
+	<li><a href="https://limsammy.github.io/2017/project-enigma">Project Enigma/</a></li>
 </ul>

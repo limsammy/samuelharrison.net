@@ -27,7 +27,8 @@ externalLink: false
     </div>
 
     <div class="toright">
-        <img class="image-alan" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" alt="Alt Text">
+        <img class="image-alan" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" alt="Alt Text" style="max-height: 540px; width: auto;">
+        <br>
         <figcaption class="caption">Photo of Alan Turing</figcaption>
     </div>
 </div>
