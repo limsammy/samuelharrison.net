@@ -7,7 +7,7 @@ tag:
 - cli
 - backend
 - Mod 1
-image: /assets/images/alan-logo.png
+image: /assets/images/alan-header.png
 headerImage: true
 projects: true
 hidden: false # don't count this post in blog pagination
