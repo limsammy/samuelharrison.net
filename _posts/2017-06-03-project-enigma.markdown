@@ -6,8 +6,8 @@ tag:
 - project
 - cli
 - backend
-<!-- image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png -->
-<!-- headerImage: true -->
+image: /assets/images/alan-logo.png
+headerImage: true
 projects: true
 hidden: false # don't count this post in blog pagination
 description: "This was my first pair project I was assigned in Module 1 of Turing"
@@ -22,15 +22,14 @@ externalLink: false
     <div class="toleft">
         <p>Inspired by our school's namesake <a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a>, widely known as the "<em>father of modern computers</em>," we were tasked with designing an encryption suite using the concepts utilized by the infamous <a href="https://en.wikipedia.org/wiki/Enigma_machine">Nazi Enigma Machine</a> used by the Axis powers in WWII.</p>
         <p>In December of 1942, London-born Turing, a brilliant mathematician educated at prestigious universities Cambridge and Princeton, travelled to the United States to lead the <a href="https://en.wikipedia.org/wiki/Hut_8">HUT 8</a> codebreaking team. These people were tasked with carrying out cryptanalysis of all German naval signals; an integral source of intel that eventually led to the Axis' demise.</p>
+        <p>Prior to 1932 the encrypted German naval messages were unbreakable; we could intercept them, but we couldn't read them. Polish mathematicians <em>did</em> work out how to read these messages (which they shared with the British), but even with the fact that the Germans were working on increasing the security of their encryption methods daily, breaking the code was quite the lengthy and arduous process, time the Allies could not spare to waste.</p>
     </div>
 
     <div class="toright">
-        <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" alt="Alt Text">
+        <img class="image-alan" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" alt="Alt Text">
         <figcaption class="caption">Photo of Alan Turing</figcaption>
     </div>
 </div>
-
-Prior to 1932 the encrypted German naval messages were unbreakable; we could intercept them, but we couldn't read them. Polish mathematicians _did_ work out how to read these messages (which they shared with the British), but even with the fact that the Germans were working on increasing the security of their encryption methods daily, breaking the code was quite the lengthy and arduous process, time the Allies could not spare to waste.
 
 However around 1940, with the assistance of fellow codebreaker [Gordon Welchman](https://en.wikipedia.org/wiki/Gordon_Welchman), Turing made the monumental breakthrough that led to our eventual victory. He and Welchman created what many refer to as the foundation for modern computing: The [Bombe Machine](https://en.wikipedia.org/wiki/Bombe). This reduced the work of breaking the Enigma code _significantly_. It was designed to discover the daily settings used in the Enigma machine:
 
@@ -135,7 +134,49 @@ If we shift each of the _A_ indices in that encrypted message by what we calcula
 
 Following that protocol for each individual index allows one to translate the encrypted string back to the original method.
 
-# How to Use
+So in the context of creating a fully automated system to perform the crack, I employed two methods:
+
+* a rotation function to shift the cipher tables as per index
+{% highlight ruby %}
+def rotation(message, rotation_id)
+    switch = message.length % 4
+    encrypted_char = message[rotation_id-switch]
+    given = '..end..'
+    decrypted_char = given[rotation_id-switch]
+    message_rotation = (@char_map.index(encrypted_char)) - (@char_map.index(decrypted_char))
+    message_rotation % @char_map.count
+end
+{% endhighlight %}
+
+* and finally, the logic in the form of several conditionals for actually performing the subtraction on the cipher values, shifting them to match with their correct key-index
+{% highlight ruby %}
+def crack(message, offset=@offset)
+    final = []
+    message.chars.map!.with_index do |char, index|
+      case index % 4
+      when 0
+        rotation = @char_map.index(char) - rotation(message, -4)
+        decrypted_char = @char_map.rotate(rotation).shift
+        final << decrypted_char
+      when 1
+        rotation = @char_map.index(char) - rotation(message, -3)
+        decrypted_char = @char_map.rotate(rotation).shift
+        final << decrypted_char
+      when 2
+        rotation = @char_map.index(char) - rotation(message, -2)
+        decrypted_char = @char_map.rotate(rotation).shift
+        final << decrypted_char
+      when 3
+        rotation = @char_map.index(char) - rotation(message, -1)
+        decrypted_char = @char_map.rotate(rotation).shift
+        final << decrypted_char
+      end
+    end
+  final.join
+end
+{% endhighlight %}
+
+# Installing and Usage
 
 Prerequisites:
 - Ruby => 1.9
