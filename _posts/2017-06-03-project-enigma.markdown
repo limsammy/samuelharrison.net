@@ -11,7 +11,7 @@ image: /assets/images/alan-header.png
 headerImage: true
 projects: true
 hidden: false # don't count this post in blog pagination
-description: "This was my first pair project I was assigned in Module 1 of Turing"
+description: "This was my first pair project I was assigned in Module 1 of Turing."
 categories: [project, blog]
 author: samlim
 externalLink: false
