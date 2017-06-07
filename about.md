@@ -22,8 +22,8 @@ With that engineering project, I won first place in Computer Science. Overjoyed 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - HTML5 - Erb</li>
-	<li>CSS (Bootstrap, Sass)</li>
+	<li>HTML - Erb</li>
+	<li>CSS</li>
 	<li>Sass</li>
 	<li>Ruby</li>
 	<li>Ruby on Rails</li>
@@ -41,6 +41,7 @@ With that engineering project, I won first place in Computer Science. Overjoyed 
 	<li>Bash</li>
 	<li>Server Management</li>
 	<li>Web Pentesting</li>
+	<li>Data Aggregation</li>
 </ul>
 
 <h2>Projects</h2>
@@ -49,5 +50,5 @@ With that engineering project, I won first place in Computer Science. Overjoyed 
 	<li><a href="https://iamchrissmith.io/headcount/">Headcount</a> (<a href="https://github.com/iamchrissmith/headcount">Source</a>)</li>
 	<li><a href="https://github.com/limsammy/bike-share">Bike Share</a></li>
 	<li><a href="https://github.com/limsammy/ISEF">Twitter Metadata Scraper and Analyzer</a></li>
-	<li><a href="https://limsammy.github.io/2017/project-enigma">Project Enigma/</a></li>
+	<li><a href="https://limsammy.github.io/2017/project-enigma">Project Enigma</a></li>
 </ul>

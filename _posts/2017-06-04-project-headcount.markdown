@@ -1,5 +1,5 @@
 ---
-title: "Project Headcount - Colorado School District Data Extraction, Import, and Analysis"
+title: "Project Headcount - Colorado School District Data ORM and Analysis"
 layout: post
 date: 2017-06-04 03:09
 tag:
