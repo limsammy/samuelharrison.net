@@ -16,7 +16,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://limsammy.github.io
+url: http://samuelharrison.net/
 # your url: http://USERNAME.github.io
 
 permalink: /:year/:title/
@@ -107,4 +107,4 @@ gems:
   - jemoji
 
 jekyll-mentions:
-    base_url: https://limsammy.github.io
+    base_url: http://samuelharrison.net/
